@@ -46,10 +46,13 @@ This project leverages NLP techniques and machine learning to identify duplicate
    cd duplicate-question-detector
 ## Installation & Setup
 
+## Installation & Setup
+
 ### Create a Virtual Environment:
-```bash
+``bash
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
+
 Install Dependencies:
 bash
 Copy
@@ -75,7 +78,7 @@ Dataset
 This project uses the Quora Question Pairs dataset, available on Kaggle.
 
 Code Structure
-plaintext
+graphql
 Copy
 Edit
 duplicate-question-detector/
@@ -100,10 +103,6 @@ Create a new branch for your changes.
 Commit your changes with clear messages.
 
 Submit a pull request.
-
-pgsql
-Copy
-Edit
 
 Feel free to adjust any sections as needed before committing it to your repository.
 
