@@ -46,20 +46,16 @@ This project leverages NLP techniques and machine learning to identify duplicate
    cd duplicate-question-detector
 ## Installation & Setup
 
-## Installation & Setup
-
-### Create a Virtual Environment:
-``bash
+### Create a Virtual Environment: 
+    ```bash
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
-Install Dependencies:
+## Install Dependencies:
 bash
 Copy
 Edit
 pip install -r requirements.txt
-Ensure your requirements.txt includes: streamlit, beautifulsoup4, distance, fuzzywuzzy, numpy, and scikit-learn.
-
 Place the Required Files:
 Ensure model.pkl, cv.pkl, and stopwords.pkl are in the project root directory.
 
