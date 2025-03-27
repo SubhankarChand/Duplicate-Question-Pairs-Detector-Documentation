@@ -44,15 +44,13 @@ This project leverages NLP techniques and machine learning to identify duplicate
    ```bash
    git clone https://github.com/yourusername/duplicate-question-detector.git
    cd duplicate-question-detector
-Create a Virtual Environment:
+## Installation & Setup
 
-bash
-Copy
-Edit
+### Create a Virtual Environment:
+```bash
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 Install Dependencies:
-
 bash
 Copy
 Edit
@@ -60,18 +58,15 @@ pip install -r requirements.txt
 Ensure your requirements.txt includes: streamlit, beautifulsoup4, distance, fuzzywuzzy, numpy, and scikit-learn.
 
 Place the Required Files:
-
 Ensure model.pkl, cv.pkl, and stopwords.pkl are in the project root directory.
 
 Usage
 Run the Application:
-
 bash
 Copy
 Edit
 streamlit run app.py
 Interact with the Interface:
-
 Enter two questions.
 
 Click "Find" to see the prediction result.
@@ -80,7 +75,7 @@ Dataset
 This project uses the Quora Question Pairs dataset, available on Kaggle.
 
 Code Structure
-graphql
+plaintext
 Copy
 Edit
 duplicate-question-detector/
@@ -105,3 +100,16 @@ Create a new branch for your changes.
 Commit your changes with clear messages.
 
 Submit a pull request.
+
+pgsql
+Copy
+Edit
+
+Feel free to adjust any sections as needed before committing it to your repository.
+
+
+
+
+
+
+
