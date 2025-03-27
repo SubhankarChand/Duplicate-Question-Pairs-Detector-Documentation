@@ -42,7 +42,7 @@ The Jupyter Notebook (`initial_with_advance_feature.ipynb`) includes data explor
 ### Installation
 
 #### Clone the Repository:
-
+```bash
 git clone https://github.com/yourusername/duplicate-question-detector.git
 cd duplicate-question-detector
 
